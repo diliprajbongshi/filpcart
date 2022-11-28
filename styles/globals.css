@@ -24,3 +24,118 @@ a {
     background: black;
   }
 }
+.foter_text a{
+  display: block;
+  color:#fff;
+  font-size:15px;
+  text-decoration:none;
+  line-height:30px;
+  font-weight:600;
+  position:relative;
+}
+.foter_text a::after {
+  position: absolute;
+  width: 500px;
+  height: 3px;
+  content: ' ';
+  background: #1A5DC8;
+  bottom: 0;
+  left: -36px;
+  visibility: hidden;
+  opacity: 0;
+}
+.foter_text a:hover:after{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+.foter_text a:hover{
+  color: #fff;
+}
+/* ==============  */
+.foter_text_two a{
+ display: block;
+  color:#fff;
+  font-size:15px;
+  text-decoration:none;
+  line-height:30px;
+  font-weight:600;
+  position:relative;
+}
+.foter_text_two a::after {
+  position: absolute;
+  width: 200px;
+  height: 3px;
+  content: ' ';
+  background: #1A5DC8;
+  bottom: 0;
+  left: -36px;
+  visibility: hidden;
+  opacity: 0;
+}
+.foter_text_two a:hover:after{
+  visibility: visible;
+  opacity: 1;
+}
+.foter_text_two a:hover{
+  color: #fff;
+}
+.footer_text_three a::after {
+  position: absolute;
+  width: 300px;
+  height: 3px;
+  content: ' ';
+  background: #1A5DC8;
+  bottom: 0;
+  left: -36px;
+  visibility: hidden;
+  opacity: 0;
+}
+.foter_text p{
+  color:#fff;
+  font-size:18px;
+  text-decoration:none;
+  line-height:26px;
+  font-weight:400;
+}
+.messanger{
+  position: relative;
+}
+.messanger_background_part{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background: #44BEC7;
+  border-radius:100px ;
+  -webkit-border-radius:100px ;
+  -moz-border-radius:100px ;
+  -ms-border-radius:100px ;
+  -o-border-radius:100px ;
+  top: 50%;
+  left: 50%;
+
+}
+.messanger_background_part {
+   font-size: 40px;
+  padding-left: 15px;
+}
+
+.mess{
+  position: absolute;
+  top: 400px;
+  left: 800px;
+}
+.model{
+  width: 350px;
+  height: 400px;
+  background: #fff;
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  box-shadow:3px 5px 10px 1px  #1A5DC8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
